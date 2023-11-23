@@ -1,0 +1,53 @@
+#portfolio-section{
+    height: 100vh;
+    width: 100vw;
+    max-width:60rem;
+    margin: 0 auto; 
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+}
+.heading1{
+    padding: 15px 0;
+    font-size: 3rem;
+}
+.para1{
+    word-spacing: 4px;
+}
+.portfolioImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65rem;
+    width: 100vw;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+.worksimage{
+    height: 18rem;
+    width: 18rem;
+    margin: 0.75rem 0.75rem 0.5rem 0;
+    justify-content: space-between;
+    display: flex;
+}
+.images{
+    height: 18rem;
+    width: 18rem;
+    padding: 0.5rem;
+    border-radius:20px ;
+}
+.worksBtn{
+    padding: 1.25rem 3rem 1.25rem 3rem;
+    margin:0.5rem ;
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 1rem;
+}
+.worksBtn:hover{
+    background-color: rgb(246, 246, 90);
+}

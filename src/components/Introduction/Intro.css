@@ -1,0 +1,50 @@
+#introductionPart{
+    height: 100vh;
+    width: 100vw;
+    max-width: 76rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bgimage{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 30rem;
+    position: absolute;
+    top: 11.5rem;
+    right: 14.5rem; 
+    
+}
+.introleft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5rem;
+}
+.hello{
+    font-size:0.80rem;
+}
+.introText{
+    font-size:2rem ;
+}
+.introName{
+    color: rgb(247, 247, 81);
+}
+.profession{
+    color: white;
+}
+.subject{
+    font-size: 1rem;
+}
+.hireBtn{
+   padding: 1rem 3.5rem ;
+   margin-top: 1.5rem;
+    border-radius: 3rem;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1rem;
+    font-weight: 1.5rem;
+}
+.hireBtn:hover{
+    background-color: rgb(246, 246, 90);
+}
